@@ -9,7 +9,7 @@ body {
 .pixDosNoivosSection {
     display: flex;
     width: 90%;
-    height: 60vh;
+    height: 70vh;
     background-color: #f8f8f8d3;
     border-radius: 35px;
 
@@ -148,7 +148,7 @@ body {
 #pixDosNoivos {
     display: flex;
     margin-top: 50px;
-    border: 2px rgba(33, 158, 44, 0.986) solid;
+    
     margin-right: 30px;
 
 
