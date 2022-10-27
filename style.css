@@ -1,0 +1,204 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.pixDosNoivosSection {
+    display: flex;
+    width: 90%;
+    height: 60vh;
+    background-color: #f8f8f8d3;
+    border-radius: 35px;
+
+}
+
+.valoresPixEsquerda {
+    display: block;
+    margin-left: 30px;
+    margin-top: 40px;
+
+}
+
+#cinquentaReais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #29a325, #94961f);
+    border-radius: 40px;
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-left: 10px;
+
+}
+
+#centoeCinquentareais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #29a325, #94961f);
+    border-radius: 40px;
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-left: 10px;
+}
+
+#duzentoseCinquentareais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #29a325, #94961f);
+    border-radius: 40px;
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-left: 10px;
+}
+
+#trezentoseCinquentareais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #29a325, #94961f);
+    border-radius: 40px;
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-left: 10px;
+}
+
+#quatrocentoseCinquentareais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #29a325, #94961f);
+    border-radius: 40px;
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-left: 10px;
+
+}
+
+#valorSimbolico {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #29a325, #94961f);
+    border-radius: 40px;
+    width: 500px;
+    height: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-left: 10px;
+}
+
+.ladoDireito {
+    display: block;
+    margin-left: 100px;
+    margin-top: 5px;
+    width: 400px;
+    border-radius: 20px;
+
+}
+
+#textoParaContexto {
+    display: flex;
+    color: rgb(122, 122, 122);
+    font-size: 10px;
+    text-align: left;
+    margin-right: 20px;
+
+}
+
+#tittle {
+    display: flex;
+    border-radius: 30px;
+    text-align: left;
+    font-family: 'Tangerine', serif;
+    font-size: 13px;
+    color: #94961f;
+
+
+
+
+}
+
+#ImgDosNoivos img {
+    display: flex;
+    border-radius: 60px;
+    border: 2px rgba(33, 158, 44, 0.986) solid;
+    margin-right: 30px;
+    justify-content: flex-end;
+    margin-left: 20px;
+
+
+
+}
+
+#pixDosNoivos {
+    display: flex;
+    margin-top: 50px;
+    border: 2px rgba(33, 158, 44, 0.986) solid;
+    margin-right: 30px;
+
+
+}
+
+body {
+    height: 80vh;
+    background: linear-gradient(90deg, #29a325, #94961f);
+
+
+}
+
+.slider-thumb::before {
+    position: absolute;
+    content: "";
+    left: 30%;
+    top: 20%;
+    width: 450px;
+    height: 450px;
+    background: #dab026;
+    border-radius: 62% 47% 82% 35% / 45% 45% 80% 66%;
+    will-change: border-radius, transform, opacity;
+    animation: sliderShape 5s linear infinite;
+    display: flex;
+    z-index: -1;
+    -webkit-animation: sliderShape 5s linear infinite;
+}
+
+@keyframes sliderShape {
+
+    0%,
+    100% {
+        border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+        transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+    }
+
+    34% {
+        border-radius: 70% 30% 46% 54% / 30% 29% 71% 70%;
+        transform: translate3d(0, 5px, 0) rotateZ(0.01deg);
+    }
+
+    50% {
+        transform: translate3d(0, 0, 0) rotateZ(0.01deg);
+    }
+
+    67% {
+        border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+        transform: translate3d(0, -3px, 0) rotateZ(0.01deg);
+    }
+}
+
+
+@media (max-width: 600px) {}
