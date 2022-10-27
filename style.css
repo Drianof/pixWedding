@@ -148,7 +148,7 @@ body {
 #pixDosNoivos {
     display: flex;
     margin-top: 50px;
-    
+    border: 2px rgba(33, 158, 44, 0.986) solid;
     margin-right: 30px;
 
 
